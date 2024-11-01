@@ -8,7 +8,7 @@ A comprehensive collection of Python interview questions and detailed answers fo
 
 ## 📚 Table of Contents
 
-- [Basics and Core Concepts](#basics-and-core-concepts)
+- [Basics and Core Concepts](#🌟-Basics-and-Core-Concepts)
 - [Control Flow and Looping](#control-flow-and-looping)
 - [Functions and Modules](#functions-and-modules)
 - [Object-Oriented Programming](#object-oriented-programming)
