@@ -8,7 +8,7 @@ A comprehensive collection of Python interview questions and detailed answers fo
 
 ## 📚 Table of Contents
 
-- [Basics and Core Concepts](#🌟-Basics-and-Core-Concepts)
+- [Basics and Core Concepts](#basics-and-core-concepts)
 - [Control Flow and Looping](#control-flow-and-looping)
 - [Functions and Modules](#functions-and-modules)
 - [Object-Oriented Programming](#object-oriented-programming)
@@ -24,7 +24,7 @@ A comprehensive collection of Python interview questions and detailed answers fo
 - [Performance Optimization](#performance-optimization)
 - [Security and Best Practices](#security-and-best-practices)
 
-## 🌟 Basics and Core Concepts
+## Basics and Core Concepts
 
 	1.	What is Python, and what are its key features?
 Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, object-oriented design, extensive standard libraries, and support for multiple programming paradigms (procedural, object-oriented, functional). Python’s syntax is simple, making it easy for beginners while remaining powerful for advanced users.
