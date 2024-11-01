@@ -56,18 +56,19 @@ def my_generator():
 
 	14.	What are list comprehensions in Python?
 List comprehensions provide a concise way to create lists. They consist of an expression followed by a for clause, and can include an optional if clause. For example:
-
+```
 squares = [x**2 for x in range(10)]
+```
 
 
 	15.	How do you break out of a loop in Python?
 You can break out of a loop using the break statement. When break is encountered, the loop terminates immediately, and control passes to the first statement following the loop. For example:
-
+```
 for x in range(10):
     if x == 5:
         break
 
-
+```
 	16.	What are lambda functions, and when would you use them?
 Lambda functions are anonymous functions defined with the lambda keyword. They can take any number of arguments but have only one expression. They’re often used for short, throwaway functions, especially as arguments to higher-order functions like map(), filter(), or sorted(). For example:
 
@@ -76,8 +77,9 @@ square = lambda x: x**2
 
 	17.	How does Python’s range() function work?
 The range() function generates a sequence of numbers, commonly used in loops. It can take one to three arguments: start, stop, and step. It produces numbers from start to stop (exclusive) with the specified step. For example:
-
+```
 for i in range(0, 10, 2):  # Generates 0, 2, 4, 6, 8
+```
 
 
 	18.	What is the difference between return and yield?
@@ -85,27 +87,28 @@ return exits a function and sends a value back to the caller, terminating the fu
 	19.	Explain how map(), filter(), and reduce() work.
 	•	map() applies a function to every item in an iterable and returns a map object (which can be converted to a list). For example:
 
+```
 squares = map(lambda x: x**2, [1, 2, 3])
-
+```
 
 	•	filter() filters items in an iterable based on a function that returns True or False. It returns a filter object. For example:
-
+```
 evens = filter(lambda x: x % 2 == 0, [1, 2, 3, 4])
-
+```
 
 	•	reduce() from the functools module applies a function cumulatively to the items of an iterable, reducing it to a single value. For example:
-
+```
 from functools import reduce
 product = reduce(lambda x, y: x * y, [1, 2, 3, 4])  # Returns 24
-
+```
 
 	20.	What is a continue statement, and when would you use it?
 The continue statement is used within loops to skip the current iteration and proceed to the next iteration. It is useful when you want to skip certain conditions without breaking the entire loop. For example:
-
+```
 for x in range(10):
     if x % 2 == 0:
         continue  # Skip even numbers
-
+```
 
 ### Functions and Modules
 
