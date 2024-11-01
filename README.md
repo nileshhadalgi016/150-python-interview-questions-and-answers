@@ -42,15 +42,70 @@ Python uses try, except, else, and finally blocks to handle exceptions. Code wit
 ### Control Flow and Looping
 
 	11.	What is the purpose of if __name__ == "__main__" in Python?
+This conditional statement checks whether a Python script is being run directly (as the main program) or being imported as a module in another script. Code within this block will execute only if the script is run directly, allowing you to include test code or script-specific functionality without affecting imports.
 	12.	Explain how for and while loops work in Python.
+	•	A for loop iterates over items in a sequence (like a list or a string) or any iterable object. It executes the block of code for each item in the sequence.
+	•	A while loop continues to execute as long as a given condition is True. It checks the condition before each iteration and exits the loop once the condition evaluates to False.
 	13.	What is a generator, and how do you use it?
+A generator is a special type of iterator that yields values one at a time and maintains state between iterations, allowing you to iterate over potentially large sequences without loading everything into memory. You create a generator using a function that contains the yield statement. For example:
+
+def my_generator():
+    yield 1
+    yield 2
+
+
 	14.	What are list comprehensions in Python?
+List comprehensions provide a concise way to create lists. They consist of an expression followed by a for clause, and can include an optional if clause. For example:
+
+squares = [x**2 for x in range(10)]
+
+
 	15.	How do you break out of a loop in Python?
+You can break out of a loop using the break statement. When break is encountered, the loop terminates immediately, and control passes to the first statement following the loop. For example:
+
+for x in range(10):
+    if x == 5:
+        break
+
+
 	16.	What are lambda functions, and when would you use them?
+Lambda functions are anonymous functions defined with the lambda keyword. They can take any number of arguments but have only one expression. They’re often used for short, throwaway functions, especially as arguments to higher-order functions like map(), filter(), or sorted(). For example:
+
+square = lambda x: x**2
+
+
 	17.	How does Python’s range() function work?
+The range() function generates a sequence of numbers, commonly used in loops. It can take one to three arguments: start, stop, and step. It produces numbers from start to stop (exclusive) with the specified step. For example:
+
+for i in range(0, 10, 2):  # Generates 0, 2, 4, 6, 8
+
+
 	18.	What is the difference between return and yield?
+return exits a function and sends a value back to the caller, terminating the function’s execution. In contrast, yield pauses the function, allowing it to produce a value and maintain its state, enabling the function to be resumed later. Functions that use yield are called generators.
 	19.	Explain how map(), filter(), and reduce() work.
+	•	map() applies a function to every item in an iterable and returns a map object (which can be converted to a list). For example:
+
+squares = map(lambda x: x**2, [1, 2, 3])
+
+
+	•	filter() filters items in an iterable based on a function that returns True or False. It returns a filter object. For example:
+
+evens = filter(lambda x: x % 2 == 0, [1, 2, 3, 4])
+
+
+	•	reduce() from the functools module applies a function cumulatively to the items of an iterable, reducing it to a single value. For example:
+
+from functools import reduce
+product = reduce(lambda x, y: x * y, [1, 2, 3, 4])  # Returns 24
+
+
 	20.	What is a continue statement, and when would you use it?
+The continue statement is used within loops to skip the current iteration and proceed to the next iteration. It is useful when you want to skip certain conditions without breaking the entire loop. For example:
+
+for x in range(10):
+    if x % 2 == 0:
+        continue  # Skip even numbers
+
 
 ### Functions and Modules
 
