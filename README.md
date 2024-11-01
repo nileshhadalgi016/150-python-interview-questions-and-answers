@@ -1,6 +1,6 @@
 # 🐍 Python Interview Questions and Answers 2025
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/python-interview-qa?style=social)]([https://github.com/yourusername/python-interview-qa](https://github.com/nileshhadalgi016/150-python-interview-questions-and-answers)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/python-interview-qa?style=social)](https://github.com/nileshhadalgi016/150-python-interview-questions-and-answers)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
