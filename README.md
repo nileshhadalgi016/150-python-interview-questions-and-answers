@@ -4,10 +4,10 @@ list of essential Python interview questions for 2025, organized into several ke
 ### Basics and Core Concepts
 
 	1.	What is Python, and what are its key features?
-	Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, object-oriented design, extensive standard libraries, and support for multiple programming paradigms (procedural, object-oriented, functional). Python’s syntax is simple, making it easy for beginners while remaining powerful for advanced users.
+Python is a high-level, interpreted programming language known for its simplicity and readability. Key features include dynamic typing, object-oriented design, extensive standard libraries, and support for multiple programming paradigms (procedural, object-oriented, functional). Python’s syntax is simple, making it easy for beginners while remaining powerful for advanced users.
 
 	2.	How does Python manage memory?
-	Python manages memory with a built-in garbage collector, which automatically frees up memory by removing unused or unreachable objects. Memory management is handled through reference counting and the garbage collection mechanism in the gc module, ensuring efficient memory use without requiring manual intervention.
+Python manages memory with a built-in garbage collector, which automatically frees up memory by removing unused or unreachable objects. Memory management is handled through reference counting and the garbage collection mechanism in the gc module, ensuring efficient memory use without requiring manual intervention.
 
 	3.	What are the key differences between Python 2 and Python 3?
 Python 3 introduced several improvements and changes over Python 2, including better Unicode support, print() as a function, integer division behavior (/ vs. //), and more consistent syntax. Python 3 is faster and supports modern libraries, while Python 2 is no longer officially supported.
